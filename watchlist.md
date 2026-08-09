@@ -49,6 +49,9 @@
 | ✅ @quantscience_ | 個人/メディア | Quant Science / HMM・シグナル発見系コンテンツ |
 | ✅ @0xkvro | 個人トレーダー | Quant Trading × Finance Tech × ai |
 | ✅ @0xTatara | 個人トレーダー | quant trading with ai / Qlib紹介等 |
+| ✅ @TanmayKurtkoti | 実務 | India's quant trading infrastructure / QCAlpha |
+| 🔍 @hemangjani9 | 実務 | Quant professional / algo trading enthusiast |
+| 🔍 @0xSammy | 個人 | quant takes / research |
 | (seed済み) | - | r/quant推奨スレ(2024)の7件は検証後すべて層Bへ昇格済み |
 
 ## 更新ルール(Grokが実行時に従う)
