@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'grok-x-*.md'
+      - 'grok-x-[0-9]*.md'
 jobs:
   build-digest:
     runs-on: ubuntu-latest
@@ -21,7 +21,7 @@ jobs:
       - name: Extract date from pushed grok-x file
         id: date
         run: |
-          DATE=$(git diff --name-only HEAD^ HEAD -- 'grok-x-*.md' \
+          DATE=$(git diff --name-only HEAD^ HEAD -- 'grok-x-[0-9]*.md' \
             | head -1 | sed 's/^grok-x-//; s/\.md$//')
           echo "date=${DATE:-}" >> "$GITHUB_OUTPUT"
           if [ -z "$DATE" ]; then

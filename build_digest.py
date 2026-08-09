@@ -14,6 +14,7 @@ reddit-{date}.md / arxiv-{date}.md / grok-x-{date}.md を統合して
     python build_digest.py [YYYY-MM-DD]   # 引数省略時は今日
 """
 
+import re
 import sys
 from datetime import date, timedelta
 from pathlib import Path
@@ -39,9 +40,11 @@ def load_source(cwd: Path, key: str, date_str: str) -> tuple[str, str, int] | No
     if not path.exists():
         return None
     body = _strip_first_h1(path.read_text(encoding='utf-8'))
-    # 件数: arXiv は '## [Title](url)'、Reddit/X は '- [Title](url)' で計上
+    # 件数: arXiv は '## [Title](url)'、Reddit は '- [Title](url)' で計上
+    # grok-x は番号リスト '1. Name / @handle (url)' 形式も対応
     count = sum(1 for ln in body.splitlines()
-                if ln.startswith('## [') or ln.startswith('- ['))
+                if ln.startswith('## [') or ln.startswith('- [')
+                or (key == 'grok-x' and re.match(r'^\d+\.\s', ln)))
     return body, path.name, count
 
 
