@@ -23,17 +23,18 @@ jobs:
         run: |
           DATE=$(git diff --name-only HEAD^ HEAD -- 'grok-x-*.md' \
             | head -1 | sed 's/^grok-x-//; s/\.md$//')
+          echo "date=${DATE:-}" >> "$GITHUB_OUTPUT"
           if [ -z "$DATE" ]; then
-            echo "ERROR: grok-x-*.md の変更を検出できません"
-            exit 1
+            echo "grok-x-*.md の変更なし (スキップ)"
           fi
-          echo "date=$DATE" >> "$GITHUB_OUTPUT"
 
       - name: Rebuild digest
+        if: steps.date.outputs.date != ''
         run: |
           python build_digest.py "${{ steps.date.outputs.date }}"
 
       - name: Commit and push digest
+        if: steps.date.outputs.date != ''
         run: |
           git config user.name "quant-weekly-bot"
           git config user.email "quant-weekly-bot@users.noreply.github.com"
