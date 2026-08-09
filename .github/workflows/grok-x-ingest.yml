@@ -22,15 +22,18 @@ jobs:
         env:
           DATE: ${{ github.event.client_payload.date }}
           CONTENT_B64: ${{ github.event.client_payload.content_b64 }}
+          CONTENT: ${{ github.event.client_payload.content }}
         run: |
-          if [ -z "$CONTENT_B64" ]; then
-            echo "ERROR: client_payload.content_b64 が空。Zapier設定を確認してください" >&2
-            exit 1
-          fi
           python3 - <<'EOF'
           import base64, os
           from datetime import date
-          content = base64.b64decode(os.environ['CONTENT_B64']).decode('utf-8')
+          if os.environ.get('CONTENT_B64'):
+              content = base64.b64decode(os.environ['CONTENT_B64']).decode('utf-8')
+          elif os.environ.get('CONTENT'):
+              content = os.environ['CONTENT']
+          else:
+              print("ERROR: client_payload.content (or content_b64) が空。Make側の設定を確認してください", file=sys.stderr)
+              raise SystemExit(1)
           date_str = os.environ.get('DATE') or date.today().isoformat()
           path = f'grok-x-{date_str}.md'
           with open(path, 'w', encoding='utf-8') as f:
