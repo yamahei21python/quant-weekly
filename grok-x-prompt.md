@@ -1,8 +1,10 @@
 # Grokタスク用プロンプト: 週次Xクオンツ収集(幅広版)
 
-> 使い方: grok.com の Tasks 作成画面に「プロンプト」欄へ下記をコピペ。
-> スケジュール: 毎週日曜 18:00 (JST) 想定。
-> 出力先: `quant-weekly/grok-x-YYYY-MM-DD.md` として保存してほしい旨を指示。
+> 使い方: grok.com/automations の「New Automation」作成画面へ「プロンプト」欄へ下記をコピペ。
+> スケジュール: 毎週日曜 18:00 (JST)。
+> コネクタ: @GitHub を必ず接続 (grok.com/connectors で接続済みであること)。
+> 出力先: GitHub リポジトリ `yamahei21python/quant-weekly` の `grok-x-YYYY-MM-DD.md` にコミット。
+> (コミット後、GitHub Actions が自動で digest を再生成します。)
 
 ---
 
@@ -34,8 +36,15 @@
 - 情報が不確かな場合は「未確認」と明記
 - 「儲けるネタ」の提案・具体的シグナル・相場観の深掘りは **対象外**(除外して良い)
 
+### 出力先(厳守)
+
+`@GitHub` コネクタを使って、下記の内容を **GitHub リポジトリ `yamahei21python/quant-weekly` のブランチ `main` のルート直下に、`grok-x-YYYY-MM-DD.md` (YYYY-MM-DD は今日の日付) としてコミット**してください。
+
+- ファイルパス: `grok-x-YYYY-MM-DD.md` (リポジトリルート直下)
+- コミットメッセージ: `feat: grok-x collect YYYY-MM-DD`
+- コミット後、リポジトリのファイル一覧でファイルが存在することを確認して報告してください。
+
 ### 出力形式(厳守)
-`quant-weekly/grok-x-YYYY-MM-DD.md` に Markdown で保存:
 
 ```
 # X収集 (YYYY-MM-DD)
@@ -111,4 +120,5 @@
 ## 出力ファイルの統合
 
 `grok-x-YYYY-MM-DD.md` は `build_digest.py` が自動統合する。
-配置場所: `/Users/kohei/Myproject/X/test/quant-weekly/`
+コミットすると GitHub Actions (`grok-x-push.yml`) が digest を自動再生成する。
+リポジトリ: https://github.com/yamahei21python/quant-weekly

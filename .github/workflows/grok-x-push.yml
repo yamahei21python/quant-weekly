@@ -1,0 +1,43 @@
+name: grok-x-push-digest
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'grok-x-*.md'
+jobs:
+  build-digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Extract date from pushed grok-x file
+        id: date
+        run: |
+          DATE=$(git diff --name-only HEAD^ HEAD -- 'grok-x-*.md' \
+            | head -1 | sed 's/^grok-x-//; s/\.md$//')
+          if [ -z "$DATE" ]; then
+            echo "ERROR: grok-x-*.md の変更を検出できません"
+            exit 1
+          fi
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+
+      - name: Rebuild digest
+        run: |
+          python build_digest.py "${{ steps.date.outputs.date }}"
+
+      - name: Commit and push digest
+        run: |
+          git config user.name "quant-weekly-bot"
+          git config user.email "quant-weekly-bot@users.noreply.github.com"
+          git add "${{ steps.date.outputs.date }}.md"
+          git commit -m "chore: rebuild digest from grok-x ${{ steps.date.outputs.date }} [skip ci]" \
+            || echo "digest 変更なし"
+          git push
