@@ -1,3 +1,5 @@
 requests
 xpoz
 python-dotenv
+# xpoz は mcp 2.x で壊れる (streamable_http_client のタプル構造変更)。1.29.0 に固定
+mcp==1.29.0
