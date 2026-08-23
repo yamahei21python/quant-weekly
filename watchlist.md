@@ -54,6 +54,8 @@
 | ✅ @0xSammy | 個人 | quant takes / research |
 | ✅ @MoyuQuant | 個人/実務 | crypto perpetual quant trading system / OCE architecture |
 | ✅ @CapyQuant_ | 個人トレーダー | Systematic trading approach |
+| ✅ @_HMPhysics_ | 実務 | HMAQuant / ロンドンブローカーQA・HFT神話・リスク解説 (2026-08-23追加) |
+| ✅ @RetroValix | 個人 | AI Builder / Polymarket HFTボット分析 (2026-08-23追加) |
 | (seed済み) | - | r/quant推奨スレ(2024)の7件は検証後すべて層Bへ昇格済み |
 
 ## 更新ルール(Grokが実行時に従う)
