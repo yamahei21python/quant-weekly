@@ -32,9 +32,9 @@
 | ✅ @choffstein | 研究者/実務 | Corey Hoffstein / Newfound Research・Return Stacked / 因子投資 |
 | ~ @nope_its_lily | 実務 | Lily Francus / デリバティブ・オプションクオンツ(NOPEモデル) 活動未確認 |
 | ✅ @bennpeifert | 実務 | Benn Eifert / ボラ・オプション戦略の定量ファンド創設 |
-| ✅ @jam_croissant | 実務 | Cem Karsan / Kai Volatility / デイラーフロー・ボラ |
+| ✅ @jam_croissant | 実務 | Cem Karsan / Kai Volatility / ディラーフロー・ボラ |
 | ✅ @macrocephalopod | 実務 | 匿名機関クオンツ / トレンドフォロー・執行・CTA |
-| ✅ @quant_arb | 実務 | Stat Arb / algos.org / イベント駆動アルファ |
+| ✅ @quant_arb | 実務 | Stat Arb / algos.org / イベント験動アルファ |
 | ✅ @Ksidiii | 実務 | Kris Sidial / オプション・ボラ |
 | ✅ @therobotjames | 実務 | James Hodges / ロボットウェルス・オプション教育 |
 | ✅ @quant_xbt | 実務 | 暗号クオンツ / 先物コンベクシティ |
@@ -56,6 +56,8 @@
 | ✅ @CapyQuant_ | 個人トレーダー | Systematic trading approach |
 | ✅ @_HMPhysics_ | 実務 | HMAQuant / ロンドンブローカーQA・HFT神話・リスク解説 (2026-08-23追加) |
 | ✅ @RetroValix | 個人 | AI Builder / Polymarket HFTボット分析 (2026-08-23追加) |
+| ✅ @quantbeckman | 研究者/実務 | Quantitative Researcher / マイクロストラクチャー・モデル検証 (2026-08-30追加) |
+| ✅ @sdav1986 | 個人トレーダー | 20年トレンド+キャリー観測 (2026-08-30追加) |
 | (seed済み) | - | r/quant推奨スレ(2024)の7件は検証後すべて層Bへ昇格済み |
 
 ## 更新ルール(Grokが実行時に従う)
