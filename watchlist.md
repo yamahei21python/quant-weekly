@@ -14,7 +14,7 @@
 | ✅ @AQRCapital | 機関 | 因子投資・リスク (旧@AQR) |
 | ✅ @OptiverGlobal | 機関 | MM・執行 (旧@Optiver) |
 | ✅ @jumptrading | 機関 | MM・暗号 (旧@JumpTrading) |
-| 🔍 @WorldQuant | 機関 | 群衆ソーシング |
+| 🔍 @WorldQuant | 機関 | 群衆ソーシング / 公式は未確認(近似@worldquant @worldquantu) |
 | ~ @manquanttech | 機関 | Man AHL公式テック(量子的テック・OSS) 実在未確認 |
 | ✅ @QuantConnect | ベンダー | リサーチプラットフォーム |
 | ✅ @DatabentoHQ | ベンダー | 市場データ (旧@databento) |
@@ -60,6 +60,8 @@
 | ✅ @sdav1986 | 個人トレーダー | 20年トレンド+キャリー観測 (2026-08-30追加) |
 | ✅ @N01ennn | 個人 | HFT/マーケットメイキング論文紹介 (2026-09-06追加) |
 | ✅ @haganenotagane | 個人トレーダー | 日経/アルゴ観測・マイクロストラクチャー (2026-09-06追加) |
+| ✅ @pyquantnews | 個人/メディア | Python quant finance / algo trading 教材 (2026-09-13追加) |
+| ✅ @bitstreetcap | 機関/ベンダー | crypto market making 解説 (2026-09-13追加) |
 | (seed済み) | - | r/quant推奨スレ(2024)の7件は検証後すべて層Bへ昇格済み |
 
 ## 更新ルール(Grokが実行時に従う)
