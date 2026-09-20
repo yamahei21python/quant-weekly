@@ -62,6 +62,8 @@
 | ✅ @haganenotagane | 個人トレーダー | 日経/アルゴ観測・マイクロストラクチャー (2026-09-06追加) |
 | ✅ @pyquantnews | 個人/メディア | Python quant finance / algo trading 教材 (2026-09-13追加) |
 | ✅ @bitstreetcap | 機関/ベンダー | crypto market making 解説 (2026-09-13追加) |
+| ✅ @JungleRockRes | 機関/ベンダー | Systematic research / SG Trend復製 (2026-09-20追加) |
+| ✅ @thenarrator | 個人/実務 | prediction market microstructure (2026-09-20追加) |
 | (seed済み) | - | r/quant推奨スレ(2024)の7件は検証後すべて層Bへ昇格済み |
 
 ## 更新ルール(Grokが実行時に従う)
