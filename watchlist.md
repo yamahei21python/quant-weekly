@@ -50,7 +50,7 @@
 | ✅ @0xkvro | 個人トレーダー | Quant Trading × Finance Tech × ai |
 | ✅ @0xTatara | 個人トレーダー | quant trading with ai / Qlib紹介等 |
 | ✅ @TanmayKurtkoti | 実務 | India's quant trading infrastructure / QCAlpha |
-| 🔍 @hemangjani9 | 実務 | Quant professional / algo trading enthusiast (実績希薄・削除候補) |
+| 🔍 @hemangjani9 | 実務 | Quant professional / algo trading enthusiast (実績希薄・削除候補継続 2026-09-13以降投稿0) |
 | ✅ @0xSammy | 個人 | quant takes / research |
 | ✅ @MoyuQuant | 個人/実務 | crypto perpetual quant trading system / OCE architecture |
 | ✅ @CapyQuant_ | 個人トレーダー | Systematic trading approach |
@@ -66,6 +66,8 @@
 | ✅ @thenarrator | 個人/実務 | prediction market microstructure (2026-09-20追加) |
 | ✅ @dima_quant | 個人/実務 | crypto live research / funding stickiness・AR予測 (2026-09-27追加) |
 | ✅ @RohOnChain | 個人/実務 | LLM agent trading / prediction markets + crypto (2026-09-27追加) |
+| ✅ @virattt | 個人/ベンダー | AI Hedge Fund OSS / paper trading (2026-10-04追加) |
+| ✅ @MetricaQuant | 個人/ベンダー | 日本語クオンツ検証・バックテスト解説 (2026-10-04追加) |
 | (seed済み) | - | r/quant推奨スレ(2024)の7件は検証後すべて層Bへ昇格済み |
 
 ## 更新ルール(Grokが実行時に従う)
