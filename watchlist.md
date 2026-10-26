@@ -69,6 +69,8 @@
 | ✅ @virattt | 個人/ベンダー | AI Hedge Fund OSS / paper trading (2026-10-04追加) |
 | ✅ @MetricaQuant | 個人/ベンダー | 日本語クオンツ検証・バックテスト解説 (2026-10-04追加) |
 | ✅ @Mathelinux | 個人/研究者 | Quantitative Research / Algotrading / AI & LLMs in quant (2026-10-11追加) |
+| ✅ @TradeNeutral | 機関/ベンダー | Quant Strategies Marketplace / HFT Multi-factor等 (2026-10-25追加) |
+| ✅ @algotradingdesk | 個人/メディア | HFTのRL適用・執行・ボラ予測系コンテンツ (2026-10-25追加) |
 | (seed済み) | - | r/quant推奨スレ(2024)の7件は検証後すべて層Bへ昇格済み |
 
 ## 更新ルール(Grokが実行時に従う)
