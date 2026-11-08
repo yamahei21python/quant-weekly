@@ -30,14 +30,14 @@
 | ✅ @Thomster78 | 研究者/実務 | Thomas Schmelzer / Jebel Quant Research・Stanford |
 | ✅ @kz_kiyoshi | 研究者 | Kiyoshi Kanazawa / 京大・平方根則・LMFモデル |
 | ✅ @choffstein | 研究者/実務 | Corey Hoffstein / Newfound Research・Return Stacked / 因子投資 |
-| ~ @nope_its_lily | 実務 | Lily Francus / デリバティブ・オプションクオンツ(NOPEモデル) 活動未確認 |
+| ~ @nope_its_lily | 実務 | Lily Francus / デリバティブ・オプションクォンツ(NOPEモデル) 活動未確認 |
 | ✅ @bennpeifert | 実務 | Benn Eifert / ボラ・オプション戦略の定量ファンド創設 |
 | ✅ @jam_croissant | 実務 | Cem Karsan / Kai Volatility / ディラーフロー・ボラ |
-| ✅ @macrocephalopod | 実務 | 匿名機関クオンツ / トレンドフォロー・執行・CTA |
+| ✅ @macrocephalopod | 実務 | 匿名機関クォンツ / トレンドフォロー・執行・CTA |
 | ✅ @quant_arb | 実務 | Stat Arb / algos.org / イベント験動アルファ |
 | ✅ @Ksidiii | 実務 | Kris Sidial / オプション・ボラ |
 | ✅ @therobotjames | 実務 | James Hodges / ロボットウェルス・オプション教育 |
-| ✅ @quant_xbt | 実務 | 暗号クオンツ / 先物コンベクシティ |
+| ✅ @quant_xbt | 実務 | 暗号クォンツ / 先物コンベクシティ |
 | ✅ @buildalpha | 実務 | r/algotrading推奨(2020)・quantブロガー |
 | ✅ @MiquelNoguer | 研究者 | AIFI創設者 / arXiv q-fin 頻出(2026-08-09収集) |
 | ✅ @Skakinaka | 研究者 | Shinji Kakinaka 高知工科大 / マルチフラクタル配分 (旧@ShinjiKakinaka) |
@@ -50,7 +50,7 @@
 | ✅ @0xkvro | 個人トレーダー | Quant Trading × Finance Tech × ai |
 | ✅ @0xTatara | 個人トレーダー | quant trading with ai / Qlib紹介等 |
 | ✅ @TanmayKurtkoti | 実務 | India's quant trading infrastructure / QCAlpha |
-| 🔍 @hemangjani9 | 実務 | Quant professional / algo trading enthusiast (実績稀薄・削除候補継続 2026-09-13以降投稿0) |
+| 🔍 @hemangjani9 | 実務 | Quant professional / algo trading enthusiast (実績稀薄・削除候補継続 最近はRT中心) |
 | ✅ @0xSammy | 個人 | quant takes / research |
 | ✅ @MoyuQuant | 個人/実務 | crypto perpetual quant trading system / OCE architecture |
 | ✅ @CapyQuant_ | 個人トレーダー | Systematic trading approach |
@@ -67,13 +67,14 @@
 | ✅ @dima_quant | 個人/実務 | crypto live research / funding stickiness・AR予測 (2026-09-27追加) |
 | ✅ @RohOnChain | 個人/実務 | LLM agent trading / prediction markets + crypto (2026-09-27追加) |
 | ✅ @virattt | 個人/ベンダー | AI Hedge Fund OSS / paper trading (2026-10-04追加) |
-| ✅ @MetricaQuant | 個人/ベンダー | 日本語クオンツ検証・バックテスト解説 (2026-10-04追加) |
+| ✅ @MetricaQuant | 個人/ベンダー | 日本語クォンツ検証・バックテスト解説 (2026-10-04追加) |
 | ✅ @Mathelinux | 個人/研究者 | Quantitative Research / Algotrading / AI & LLMs in quant (2026-10-11追加) |
 | ✅ @TradeNeutral | 機関/ベンダー | Quant Strategies Marketplace / HFT Multi-factor等 (2026-10-25追加) |
 | ✅ @algotradingdesk | 個人/メディア | HFTのRL適用・執行・ボラ予測系コンテンツ (2026-10-25追加) |
 | ✅ @Fibonacci_HFT | 機関 | Market Maker & HFT Fund / 自動スプレッド調整・リスク管理 (2026-11-01追加) |
 | ✅ @lewang_teraliq | 個人/研究者 | Teraliq Quant Lab / AI × Markets × Risk / エージェント経済・システマティック戦略 (2026-11-01追加) |
 | ✅ @quantumboomnow | 個人/メディア | frontier tech / AI / quantum / hedge fund quants向けダイジェスト (2026-11-01追加) |
+| ✅ @godofwaaar | 個人/研究者 | 残差アルファ・因子分解・PCA圧縮フレームワーク紹介 (2026-11-08追加) |
 | (seed済み) | - | r/quant推奨スレ(2024)の7件は検証後すべて層Bへ昇格済み |
 
 ## 更新ルール(Grokが実行時に従う)
