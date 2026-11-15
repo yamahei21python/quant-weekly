@@ -75,6 +75,9 @@
 | ✅ @lewang_teraliq | 個人/研究者 | Teraliq Quant Lab / AI × Markets × Risk / エージェント経済・システマティック戦略 (2026-11-01追加) |
 | ✅ @quantumboomnow | 個人/メディア | frontier tech / AI / quantum / hedge fund quants向けダイジェスト (2026-11-01追加) |
 | ✅ @godofwaaar | 個人/研究者 | 残差アルファ・因子分解・PCA圧縮フレームワーク紹介 (2026-11-08追加) |
+| ✅ @chameleon_jeff | 個人/実務 | HFT/MM expert / Hyperliquid builder / Rust for HFT threads (2026-11-15追加) |
+| ✅ @HangukQuant | 個人/実務 | crypto MFT/HFT quant research and dev (2026-11-15追加) |
+| ✅ @0xLUKE777crypt | 個人/実務 | Perp DEX quant / market making series AS/GLFT (2026-11-15追加) |
 | (seed済み) | - | r/quant推奨スレ(2024)の7件は検証後すべて層Bへ昇格済み |
 
 ## 更新ルール(Grokが実行時に従う)
